@@ -1,7 +1,7 @@
 import * as model from '@/features/CalculatorButton'
 export const calculatorModel = [
     [
-        new model.UnaryOperatorButton("mod", () => console.log("mod")),
+        new model.ModButton(),
         new model.FloorButton(),
         new model.CeilButton(),
         new model.ClearButton(),
