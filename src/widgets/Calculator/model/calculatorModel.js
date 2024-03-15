@@ -19,7 +19,7 @@ export const calculatorModel = [
         new model.NumberButton("4"),
         new model.NumberButton("5"),
         new model.NumberButton("6"),
-        new model.UnaryOperatorButton("-", () => console.log("minus")),
+        new model.MinusButton(),
     ],
     [
         new model.CosineButton(),
