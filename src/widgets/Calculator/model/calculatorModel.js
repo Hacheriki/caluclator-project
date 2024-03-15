@@ -8,7 +8,7 @@ export const calculatorModel = [
         new model.DivideButton(),
     ],
     [
-        new model.UnaryOperatorButton("^", () => console.log("power")),
+        new model.PowerButton(),
         new model.NumberButton("7"),
         new model.NumberButton("8"),
         new model.NumberButton("9"),
