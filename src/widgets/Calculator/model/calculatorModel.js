@@ -3,7 +3,7 @@ export const calculatorModel = [
     [
         new model.UnaryOperatorButton("mod", () => console.log("mod")),
         new model.UnaryOperatorButton("floor", () => console.log("floor")),
-        new model.UnaryOperatorButton("ceil", () => console.log("ceil")),
+        new model.CeilButton(),
         new model.ClearButton(),
         new model.BinaryOperatorButton("/", () => console.log("divide")),
     ],
