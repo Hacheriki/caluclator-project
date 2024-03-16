@@ -15,7 +15,7 @@ export const calculatorModel = [
         new model.UnaryOperatorButton("*", () => console.log("product")),
     ],
     [
-        new model.UnaryOperatorButton("sqrt", () => console.log("sqrt")),
+        new model.SqrtButton(),
         new model.NumberButton("4"),
         new model.NumberButton("5"),
         new model.NumberButton("6"),
