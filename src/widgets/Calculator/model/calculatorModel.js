@@ -12,7 +12,7 @@ export const calculatorModel = [
         new model.NumberButton("7"),
         new model.NumberButton("8"),
         new model.NumberButton("9"),
-        new model.UnaryOperatorButton("*", () => console.log("product")),
+        new model.ProductButton(),
     ],
     [
         new model.SqrtButton(),
