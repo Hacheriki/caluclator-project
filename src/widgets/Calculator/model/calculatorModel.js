@@ -12,10 +12,10 @@ export const calculatorModel = [
         new model.NumberButton("7"),
         new model.NumberButton("8"),
         new model.NumberButton("9"),
-        new model.UnaryOperatorButton("*", () => console.log("product")),
+        new model.ProductButton(),
     ],
     [
-        new model.UnaryOperatorButton("sqrt", () => console.log("sqrt")),
+        new model.SqrtButton(),
         new model.NumberButton("4"),
         new model.NumberButton("5"),
         new model.NumberButton("6"),
@@ -29,8 +29,8 @@ export const calculatorModel = [
         new model.PlusButton(),
     ],
     [
-        new model.UnaryOperatorButton("sin", () => console.log("sine")),
-        new model.UnaryOperatorButton("+/-", () => console.log("sign")),
+        new model.SineButton(),
+        new model.SignButton(),
         new model.NumberButton("0"),
         new model.NumberButton("."),
         new model.EqualsButton()
