@@ -30,7 +30,7 @@ export const calculatorModel = [
     ],
     [
         new model.UnaryOperatorButton("sin", () => console.log("sine")),
-        new model.UnaryOperatorButton("+/-", () => console.log("sign")),
+        new model.SignButton(),
         new model.NumberButton("0"),
         new model.NumberButton("."),
         new model.EqualsButton()
